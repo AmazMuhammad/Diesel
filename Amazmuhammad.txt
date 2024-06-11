@@ -9,7 +9,8 @@ int main() {
     std::cin >> radius;
     
     double area = pi * pow(radius, 2);
-    
+        std::cout << "testing"<<endl;
+
     std::cout << "The area of the circle with radius " << radius << " is " << area << " square units." << std::endl;
     
     return 0;
